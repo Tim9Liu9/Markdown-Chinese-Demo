@@ -43,7 +43,7 @@
 2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
 
 ###只是显示图片
-![github](http://github.com/unicorn.png "github")
+![github](https://avatars0.githubusercontent.com/u/7368592?v=3&s=96 "github")
 
 ###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
 [![image]](http://www.github.com/)
@@ -75,3 +75,18 @@
 * 在行首加点
 行首输入*，空格后输入内容即可
     
+
+* 表格
+ 字段                | 类型       | 说明
+--------------------|-----------|-----------------
+ item               | array     | 地址列表
+ id                 | int       | 地址ID
+ consignee          | string    | 收件人
+ delivery           | string    | 省市区
+ region_lv1         | int       | 省
+ region_lv2         | int       | 市
+ region_lv3         | int       | 区/县
+ region_lv4         | int       | 镇
+ delivery_detail    | string    | 详细地址
+ phone              | int       | 电话
+ postcode           | int       | 有证编码
